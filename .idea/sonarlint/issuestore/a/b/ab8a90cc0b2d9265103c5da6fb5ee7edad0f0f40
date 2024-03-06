@@ -1,7 +1,9 @@
 
-G	java:S106"+Replace this use of System.out by a logger.(ššôŒ8ŠÌ á1
-L	java:S106"+Replace this use of System.out by a logger.(ª‰‡¾üÿÿÿÿ8ŠÌ á1
-L	java:S106"+Replace this use of System.out by a logger.(Ÿëšùùÿÿÿÿ8ŠÌ á1
-G	java:S106"+Replace this use of System.out by a logger.(Áªø8ŠˆÏ á1
+G	java:S106"+Replace this use of System.out by a logger.(ššôŒ8 ª–¡á1
+L	java:S106"+Replace this use of System.out by a logger.(ª‰‡¾üÿÿÿÿ8 ª–¡á1
+L	java:S106"+Replace this use of System.out by a logger.(Ÿëšùùÿÿÿÿ8 ª–¡á1
+G	java:S106"+Replace this use of System.out by a logger.(Áªø8¡ª–¡á1
+G	java:S106"+Replace this use of System.out by a logger.(Îä”è8¡ª–¡á1
+G	java:S106"+Replace this use of System.out by a logger.(Áªø8Ùİ˜¡á1
 H
-java:S1128"+Remove this unused import 'java.util.Date'.(¸…¼ü8ŠˆÏ á1
+java:S1128"+Remove this unused import 'java.util.Date'.(¸…¼ü8Å—¡á1

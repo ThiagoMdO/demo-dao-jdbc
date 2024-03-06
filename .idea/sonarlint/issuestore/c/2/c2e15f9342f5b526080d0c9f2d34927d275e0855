@@ -1,13 +1,17 @@
 
+…
+java:S11922"hDefine a constant instead of duplicating this literal "ON seller.DepartmentId = department.Id " 3 times.(©ËĞè8¶£’¡á1
+
+java:S11920"lDefine a constant instead of duplicating this literal "SELECT seller.*,department.Name as DepName " 3 times.(¢¦•›úÿÿÿÿ8¶£’¡á1
 j
-java:S1192\"MDefine a constant instead of duplicating this literal "DepartmentId" 3 times.(‡›á²8­Î¾ á1
+java:S1192\"MDefine a constant instead of duplicating this literal "DepartmentId" 5 times.(‡›á²8¶£’¡á1
+…
+java:S11921"cDefine a constant instead of duplicating this literal "FROM seller INNER JOIN department " 3 times.(¤‹æŸÿÿÿÿÿ8·£’¡á1
 {
-java:S1488;"^Immediately return this expression instead of assigning it to the temporary variable "seller".(éÃ 8­Î¾ á1
+java:S1488;"^Immediately return this expression instead of assigning it to the temporary variable "seller".(éÃ 8·£’¡á1
 
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ŸÒõ§8ÖÎ¾ á1
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ŸÒõ§8ï£’¡á1
 
-java:S1186 "€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÃÜ¬š8ÖÎ¾ á1
+java:S1186 "€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÃÜ¬š8ï£’¡á1
 
-java:S1186&"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ïàš8ÖÎ¾ á1
-I
-java:S1168ƒ"+Return an empty collection instead of null.(¥¹ï8ŞÎ¾ á1
+java:S1186&"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ïàš8ï£’¡á1
