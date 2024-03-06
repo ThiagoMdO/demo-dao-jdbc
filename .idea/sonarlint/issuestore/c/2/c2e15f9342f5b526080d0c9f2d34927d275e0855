@@ -1,17 +1,15 @@
 
 …
-java:S11922"hDefine a constant instead of duplicating this literal "ON seller.DepartmentId = department.Id " 3 times.(©ËÐè8¶£’¡á1
+java:S1192R"hDefine a constant instead of duplicating this literal "ON seller.DepartmentId = department.Id " 3 times.(©ËÐè8¬Âû¡á1
 Ž
-java:S11920"lDefine a constant instead of duplicating this literal "SELECT seller.*,department.Name as DepName " 3 times.(¢¦•›úÿÿÿÿ8¶£’¡á1
-j
-java:S1192\"MDefine a constant instead of duplicating this literal "DepartmentId" 5 times.(‡›á²8¶£’¡á1
+java:S1192P"lDefine a constant instead of duplicating this literal "SELECT seller.*,department.Name as DepName " 3 times.(¢¦•›úÿÿÿÿ8­Âû¡á1
 …
-java:S11921"cDefine a constant instead of duplicating this literal "FROM seller INNER JOIN department " 3 times.(¤‹æŸÿÿÿÿÿ8·£’¡á1
+java:S1192Q"cDefine a constant instead of duplicating this literal "FROM seller INNER JOIN department " 3 times.(¤‹æŸÿÿÿÿÿ8­Âû¡á1
+j
+java:S1192|"MDefine a constant instead of duplicating this literal "DepartmentId" 5 times.(‡›á²8­Âû¡á1
 {
-java:S1488;"^Immediately return this expression instead of assigning it to the temporary variable "seller".(éŽÃ 8·£’¡á1
+java:S1488["^Immediately return this expression instead of assigning it to the temporary variable "seller".(éŽÃ 8®Âû¡á1
 ž
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ŸÒõ§8ï£’¡á1
+java:S1186@"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÃÜ¬š8áÂû¡á1
 ž
-java:S1186 "€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÃÜ¬š8ï£’¡á1
-ž
-java:S1186&"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ŽÏàš8ï£’¡á1
+java:S1186F"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ŽÏàš8áÂû¡á1
