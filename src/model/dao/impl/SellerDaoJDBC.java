@@ -102,7 +102,7 @@ public class SellerDaoJDBC implements SellerDao {
             int rowsAffected = st.executeUpdate();
 
             if (rowsAffected == 0){
-                throw new DbException("Nenhum usuario com esse Id foi encontrado");
+                throw new DbException("Unexpected error! No rows affected");
             }
         }catch (SQLException e){
             throw new DbException(e.getMessage());
@@ -128,8 +128,7 @@ public class SellerDaoJDBC implements SellerDao {
 
             if (rs.next()) {
                 Department department = instantiateDepartment(rs);
-                Seller seller = instantiareSeller(rs, department);
-                return seller;
+                return instantiareSeller(rs, department);
             }
             return null;
         } catch (SQLException e) {

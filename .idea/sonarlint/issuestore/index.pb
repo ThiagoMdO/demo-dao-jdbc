@@ -22,3 +22,7 @@ M
 src/model/dao/DaoFactory.java,8\2\8288bf9e5483612d44edd95b2dd5fef42a1a42ff
 >
 src/db/DB.java,d\3\d305f6a1dcd7efedcf9636b0609242aab50a2ab4
+Y
+)src/model/dao/impl/DepartmentDaoJDBC.java,2\8\287272fd2046a869058dd0f9b73133f7cc6f4f00
+G
+src/db/DbException.java,7\c\7c4435bdfa4809ad9c3e1494f83162f6664f92ba

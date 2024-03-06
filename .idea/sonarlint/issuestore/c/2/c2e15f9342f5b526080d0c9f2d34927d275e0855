@@ -6,6 +6,4 @@ java:S1192x"lDefine a constant instead of duplicating this literal "SELECT sell
 …
 java:S1192y"cDefine a constant instead of duplicating this literal "FROM seller INNER JOIN department " 3 times.(¤‹æŸÿÿÿÿÿ8ò™â¢á1
 k
-java:S1192¤"MDefine a constant instead of duplicating this literal "DepartmentId" 5 times.(‡›á²8ò™â¢á1
-|
-java:S1488ƒ"^Immediately return this expression instead of assigning it to the temporary variable "seller".(éŽÃ 8ò™â¢á1
+java:S1192£"MDefine a constant instead of duplicating this literal "DepartmentId" 5 times.(‡›á²8ò™â¢á1
