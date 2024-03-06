@@ -40,6 +40,13 @@ public class Program {
         seller = sellerDao.findById(1);
         seller.setName("Joao da Vila");
         sellerDao.update(seller);
+        System.out.println("The seller was updated with success");
+
+        System.out.println("\n==== TEST 6: Seller Delete ====");
+        sellerDao.deleteById(33);
+        System.out.println("The seller was deleted with success");
+
+
 
     }
 }
