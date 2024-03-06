@@ -1,11 +1,13 @@
 
+j
+java:S1192\"MDefine a constant instead of duplicating this literal "DepartmentId" 3 times.(áõ·≤8≠Œæ†·1
 {
-java:S14888"^Immediately return this expression instead of assigning it to the temporary variable "seller".(Èé√†8¡Œ›ü·1
+java:S1488;"^Immediately return this expression instead of assigning it to the temporary variable "seller".(Èé√†8≠Œæ†·1
 û
-java:S1186"ÄAdd a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ü“ıß8¢é›ü·1
+java:S1186"ÄAdd a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ü“ıß8÷Œæ†·1
 û
-java:S1186"ÄAdd a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(√‹¨ö8¢é›ü·1
+java:S1186 "ÄAdd a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(√‹¨ö8÷Œæ†·1
 û
-java:S1186#"ÄAdd a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(éœ‡ö8¢é›ü·1
-H
-java:S1168X"+Return an empty collection instead of null.(•πÔç8Æé›ü·1
+java:S1186&"ÄAdd a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(éœ‡ö8÷Œæ†·1
+I
+java:S1168É"+Return an empty collection instead of null.(•πÔç8ﬁŒæ†·1
