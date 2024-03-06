@@ -16,13 +16,15 @@ public class SellerDaoJDBC implements SellerDao {
 
     private Connection connection;
 
-    public SellerDaoJDBC(Connection connection){
+    public SellerDaoJDBC(Connection connection) {
         this.connection = connection;
     }
+
     @Override
-    public void insert(Seller obj){
+    public void insert(Seller obj) {
 
     }
+
     @Override
     public void update(Seller obj) {
 
@@ -30,12 +32,12 @@ public class SellerDaoJDBC implements SellerDao {
     }
 
     @Override
-    public void deleteById(Integer id){
+    public void deleteById(Integer id) {
 
     }
 
     @Override
-    public Seller findById(Integer id){
+    public Seller findById(Integer id) {
         PreparedStatement st = null;
         ResultSet rs = null;
         try {
@@ -49,32 +51,40 @@ public class SellerDaoJDBC implements SellerDao {
 
             rs = st.executeQuery();
 
-            if (rs.next()){
-                Department department = new Department();
-                department.setId(rs.getInt("DepartmentId"));
-                department.setName(rs.getString("DepName"));
-
-                Seller seller = new Seller();
-                seller.setId(rs.getInt("Id"));
-                seller.setName(rs.getString("Name"));
-                seller.setEmail(rs.getString("Email"));
-                seller.setBirthdate(rs.getDate("BirthDate"));
-                seller.setBaseSalary(rs.getDouble("BaseSalary"));
-                seller.setDepartment(department);
-
+            if (rs.next()) {
+                Department department = instantiateDepartment(rs);
+                Seller seller = instantiareSeller(rs, department);
                 return seller;
             }
             return null;
-        }catch (SQLException e){
+        } catch (SQLException e) {
             throw new DbException(e.getMessage());
-        }finally {
+        } finally {
             DB.closeStatement(st);
             DB.closeResultSet(rs);
         }
     }
 
+    public static Department instantiateDepartment(ResultSet resultSet) throws SQLException {
+        Department department = new Department();
+        department.setId(resultSet.getInt("DepartmentId"));
+        department.setName(resultSet.getString("DepName"));
+        return department;
+    }
+
+    public static Seller instantiareSeller(ResultSet resultSet, Department department) throws SQLException{
+        Seller seller = new Seller();
+        seller.setId(resultSet.getInt("Id"));
+        seller.setName(resultSet.getString("Name"));
+        seller.setEmail(resultSet.getString("Email"));
+        seller.setBirthdate(resultSet.getDate("BirthDate"));
+        seller.setBaseSalary(resultSet.getDouble("BaseSalary"));
+        seller.setDepartment(department);
+        return seller;
+    }
+
     @Override
-    public List<Seller> findAll(){
+    public List<Seller> findAll() {
         return null;
     }
 }
